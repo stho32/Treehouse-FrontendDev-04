@@ -7,4 +7,11 @@
 * {
     font-family: $font-stack-primary;
     box-sizing: border-box;
+    font-size: $font-size-default;
+}
+
+p {
+    line-height: 2em;
+    padding: $gutter-default * 2;
+    font-size: $font-size-default;    
 }
