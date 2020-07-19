@@ -5,4 +5,5 @@
 #>
 Set-Location $PSScriptRoot
 
-sass source/scss/styles.scss Source/css/styles.css --style compressed
+#sass source/scss/styles.scss Source/css/styles.css --style compressed
+sass source/scss/styles.scss Source/css/styles.css
