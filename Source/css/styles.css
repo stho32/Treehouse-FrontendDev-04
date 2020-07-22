@@ -343,12 +343,6 @@ template {
   font-size: 18px;
 }
 
-p {
-  line-height: 2em;
-  padding: 50px;
-  font-size: 18px;
-}
-
 .grid__row {
   padding: 1em 10px;
   display: flex;
@@ -519,6 +513,15 @@ p {
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.card {
+  line-height: 1.6em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 17px;
 }
 
 /*# sourceMappingURL=styles.css.map */
