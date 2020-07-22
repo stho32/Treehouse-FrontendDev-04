@@ -343,6 +343,10 @@ template {
   font-size: 18px;
 }
 
+p {
+  margin-top: 38px;
+}
+
 .grid__row {
   padding: 1em 10px;
   display: flex;
@@ -480,6 +484,20 @@ template {
   }
 }
 
+.headline--primary {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #58E1C1;
+  font-size: 30px;
+  line-height: 1.125em;
+}
+
+.headline--secondary {
+  margin: 0;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
 .nav {
   list-style-type: none;
   padding: 0px;
@@ -497,7 +515,7 @@ template {
   display: block;
   text-decoration: none;
   width: 100%;
-  color: #000;
+  color: #666666;
   text-align: center;
 }
 .nav__item:first-child {
@@ -517,11 +535,12 @@ template {
 
 .card {
   line-height: 1.6em;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
   font-size: 17px;
+  color: #666666;
 }
 
 /*# sourceMappingURL=styles.css.map */
